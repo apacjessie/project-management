@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer utilities {
+  .padding {
+    @apply px-5 md:px-20 lg:px-28;
+  }
+}
